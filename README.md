@@ -138,7 +138,7 @@ Hasil uji coba
 
 ![Hasil Skenario 1](video_player_1.5.16/testnto.PNG)
 
-Sumber referensi : https://www.exploit-db.com/exploits/38458/
+Sumber referensi : https://www.exploit-db.com/exploits/40137/
 
 ####4. Uji Sql Injection terhadap plugin wordpress booking calendar 
 
