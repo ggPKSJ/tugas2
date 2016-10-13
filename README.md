@@ -24,28 +24,36 @@
 **1. OS yang digunakan**
 
 * **Kali Linux** adalah 
-Kali Linux adalah salah satu distribusi Linux tingkat lanjut untuk Penetration Testing dan audit keamanan, pembangunan kembali BackTrack Linux secara sempurna,  mengikuti sepenuhnya kepada standar pengembangan Debian.(http://id.docs.kali.org/introduction-id/apa-itu-kali-linux)
+salah satu distribusi Linux tingkat lanjut untuk Penetration Testing dan audit keamanan, pembangunan kembali BackTrack Linux secara sempurna,  mengikuti sepenuhnya kepada standar pengembangan Debian.(http://id.docs.kali.org/introduction-id/apa-itu-kali-linux)
 
 * **Ubuntu Server** adalah 
-Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingkungan enterprise atau perusahaan untuk keperluan seperti web server ataupun router, secara default versi server ini tidak menyertakan antarmuka GUI, yang ada hanya shell alias Command line,aplikasi bawaan dari ubuntu server sekedar info buat anda berupa aplikasi serveri webserver, DNS server, DHCP server, firewall, openSSH, dan applikasi yang berhubungan dengan server, teknologi yang dibenamkan diserver juga umumnya hanya dipakai oleh orang yang benar benar advanced di Linux. (https://etix.wordpress.com/2010/01/28/perbedaan-ubuntu-server-dan-desktop/)
+suatu desain ubuntu yang digunakan untuk diinstall di lingkungan enterprise atau perusahaan untuk keperluan seperti web server ataupun router, secara default versi server ini tidak menyertakan antarmuka GUI, yang ada hanya shell alias Command line,aplikasi bawaan dari ubuntu server sekedar info buat anda berupa aplikasi serveri webserver, DNS server, DHCP server, firewall, openSSH, dan applikasi yang berhubungan dengan server, teknologi yang dibenamkan diserver juga umumnya hanya dipakai oleh orang yang benar benar advanced di Linux. (https://etix.wordpress.com/2010/01/28/perbedaan-ubuntu-server-dan-desktop/)
 
 **2. Tools yang digunakan**
 
 *Wordpress Plugin*
 
 * **Video Player v. 1.5.16**, 
+adalah plugin Wordpress yang menyediakan fitur untuk memasukkan video ke website Wordpress.
+Video Player ini dapat diunduh di halaman ini (https://wordpress.org/plugins/player/developers/)
 
 * **League Manager 3.9.11**,
-
-* **Booking Calendar**,
+Plugin ini digunakan untuk menampilkan hasil dari pertandingan sepak bola pada website wordpress.
+Plugin ini dapat diunduh pada halaman berikut (https://wordpress.org/plugins/leaguemanager/developers/).
 
 *Tools*
 
-* **Sql Map**
+* **Sql Map** 
+tools opensource yang mendeteksi dan melakukan exploit pada bug SQL injection secara otomatis. dengan melakukan serangan SQL injection seorang attacker dapat mengambil alih serta memanipulasi sebuah database di dalam sebuah server.
+SQLMap dapat diunduh pada link berikut (https://github.com/sqlmapproject/sqlmap/zipball/master)
 
-* **Wpscan**
+* **Wpscan** 
+merupakan tools vulnerability scanner untuk CMS Wordpress yang ditulis dengan menggunakan bahasa pemrograman ruby, WPScan mampu mendeteksi kerentanan umum serta daftar semua plugin dan themes yang digunakan oleh sebuah website yang menggunakan CMS Wordpress.
+WPScan dapat diunduh pada link berikut (https://github.com/wpscanteam/wpscan/zipball/master)
 
-* **NTO sql Invader**
+* **NTO sql Invader** 
+adalah tools yang digunakan untuk mendeteksi SQL Injection Vulnerabilities pada suatu aplikasi web. 
+NTO sql Invader dapat diunduh pada link berikut (http://ntosqlinvader.software.informer.com/download/)
 
 ## Persiapan
 
