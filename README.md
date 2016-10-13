@@ -128,8 +128,16 @@ NTO sql Invader dapat diunduh pada link berikut (http://ntosqlinvader.software.i
 
 #### 2. Install Wordpress Plugin
 
+  1. Unduh plugin Wordpress Video Player v. 1.5.16 di https://wordpress.org/plugins/player/developers/
 
-## Uji Sql Injection
+  2. Login ke wordpress, lalu pilih menu **Add New** pada navigasi **Plugins**
+![Instal Wordpress Plugin](wordpress/halaman_plugin.png)
+
+  3. Unggah file yang diunduh, kemudian pilih Install Now untuk menginstal plugin  
+![Instal Wordpress Plugin](wordpress/install_plugin.png)
+
+  4. Setelah berhasil diinstal, klik activate plugin
+![Instal Video Player](wordpress/activate_plugin.png)
 
 #### 1. Uji Sql Injection dengan Wpscan
 
