@@ -54,8 +54,7 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
   1. Pastikan LAMP (Linux, Apache, MySQL, and PHP) stack sudah terinstal
 
 
-  2. Unduh versi terbaru dari Wordpress  
-
+  2. Unduh versi terbaru dari Wordpress
   ```
   $ cd /tmp
   $ wget http://wordpress.org/latest.tar.gz
@@ -71,12 +70,12 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
   $ mysql -u root -p
   ```
 
-  5. Buat database yang akan digunakan Wordpress  
+  5. Buat database yang akan digunakan Wordpress
   ```
   mysql> CREATE DATABASE wordpress
   ```
 
-  6. Buat user yang digunakan untuk mengoperasikan database Wordpress  
+  6. Buat user yang digunakan untuk mengoperasikan database Wordpress
   ```
   mysql> CREATE USER wordpress@localhost IDENTIFIED BY "masukkan_password_disini";
   ```
@@ -86,36 +85,36 @@ Ubuntu server adalah suatu desain ubuntu yang digunakan untuk diinstall di lingk
   mysql> GRANT ALL ON wordpress.* TO wordpress@localhost;
   ```
 
-  8. Flush aturan hak akses yang telah ditetapkan agar MySQL yang sedang berjalan dapat mengetahui perubahan aturan hak akses, kemudian keluar dari MySQL  
+  8. Flush aturan hak akses yang telah ditetapkan agar MySQL yang sedang berjalan dapat mengetahui perubahan aturan hak akses, kemudian keluar dari MySQL
   ```
   mysql> FLUSH PRIVILEGES;
   mysql> exit;
   ```
 
-  9. Pindah ke direktori `/var/www/html/wordpress`, kemudian salin `wp-config-sample.php` ke file `wp-config.php`   
+  9. Pindah ke direktori `/var/www/html/wordpress`, kemudian salin `wp-config-sample.php` ke file `wp-config.php`
   ```
   $ cd /var/www/html/wordpress;
   $ cp wp-config-sample.php wp-config.php;
   ```
 
-  10. Buka file `wp-config.php` menggunakan teks editor, kemudian ubah isi variable dari `DB_NAME`, `DB_USER`dan `DB_PASSWORD` sesuai dengan nilai yang telah anda tentukan pada langkah 5 dan 6  
+  10. Buka file `wp-config.php` menggunakan teks editor, kemudian ubah isi variable dari `DB_NAME`, `DB_USER`dan `DB_PASSWORD` sesuai dengan nilai yang telah anda tentukan pada langkah 5 dan 6
   ```
   $ vi wp-config.php
   ```
 
-  11. Contoh tampilan dari konfigurasi Wordpress yang digunakan pada tutorial  
+  11. Contoh tampilan dari konfigurasi Wordpress yang digunakan pada tutorial 
 ![Konfigurasi Wordpress](wordpress/konfigurasi.png)
 
-  12. Buka web browser, kemudian masukkan alamat Wordpress anda (misal `http://localhost`. Jika Wordpress berjalan maka akan muncul tampilan seperti di gambar.  
+  12. Buka web browser, kemudian masukkan alamat Wordpress anda (misal `http://localhost`. Jika Wordpress berjalan maka akan muncul tampilan seperti di gambar.
 ![Halaman awal Wordpress](wordpress/halaman_awal.png)
 
-  13. Masukkan informasi yang akan digunakan untuk membuat akun admin  Wordpress. Setelah selesai, klik tombol `Install Wordpress`  
+  13. Masukkan informasi yang akan digunakan untuk membuat akun admin  Wordpress. Setelah selesai, klik tombol `Install Wordpress`
 ![Konfigurasi awal Wordpress](wordpress/konfigurasi_awal.png)
 
-  14. Login ke Wordpress anda menggunakan akun admin yang telah dibuat  
+  14. Login ke Wordpress anda menggunakan akun admin yang telah dibuat
 ![Halaman Login Wordpress](wordpress/halaman_login.png)
 
-  15. Tampilan dashboard dari Wordpress  
+  15. Tampilan dashboard dari Wordpress
 ![Instal Wordpress](wordpress/dashboard.png)
 
 
