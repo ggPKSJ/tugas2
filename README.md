@@ -80,7 +80,7 @@ wpscan -u 10.151.36.5/html --enumerate vp
 
 ####2. Uji Sql Injection terhadap plugin wordpress leaguemanager v.3.9.11
 
-Pada tahap ini, kami melakukan sebuah skenario uji sql injection terhadap leaguemanager plugin, yaitu :
+Pada tahap ini, kami melakukan 2 skenario uji sql injection terhadap leaguemanager plugin, yaitu :
 1. melakukan brute force sql injection yang terdapat dalam leaguemanager yang telah diinstall
 
 **Skenario 1** : melakukan brute force sql injection yang terdapat dalam leaguemanager yang telah diinstall untuk dari match
@@ -123,11 +123,22 @@ Hasil Uji dengan sqlmap dengan command seperti diatas adalah
 
 ![Hasil Skenario 1](leaguemanager_3.9.11/15.PNG)
 
+Sumber referensi : https://www.exploit-db.com/exploits/37182/
 
 ####3. Uji Sql Injection terhadap plugin wordpress video player v.1.5.16
 
 Pada tahap ini, kami melakukan sebuah skenario uji sql injection terhadap video player plugin, yaitu :
+1. melakukan brute force sql injection yang terdapat dalam video player yang telah diinstall
 
+**Skenario 1** : menggunakan NTO sql invader untuk melakukan cek parameter yang mungkin terdapat vulnerable terhadap sql injection yang terdapat dalam post method.
+
+- Menggunakan NTO sql invader untuk melakukan pengecekan terhadap parameter yang mungkin terdapat vulnerable terhadap sql injection yang terdapat dalam post method
+
+Hasil uji coba
+
+![Hasil Skenario 1](video_player_1.5.16/testnto.PNG)
+
+Sumber referensi : https://www.exploit-db.com/exploits/38458/
 
 ####4. Uji Sql Injection terhadap plugin wordpress booking calendar 
 
