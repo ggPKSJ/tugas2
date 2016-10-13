@@ -152,9 +152,6 @@ Hasil uji coba
 
 Sumber referensi : https://www.exploit-db.com/exploits/40137/
 
-####4. Uji Sql Injection terhadap plugin wordpress booking calendar 
-
-Pada tahap ini, kami melakukan sebuah skenario uji sql injection terhadap booking calendar plugin, yaitu :
-
-
 ## Kesimpulan dan Saran
+1. Terdapat Banyak Plugin Wordpress yang dapat di eksploitasi menggunakan banyak cara. salah satu caranya adalah menggunakan sql injection.
+2. Untuk Menanganai hal ini, para pengguna web wordpress harus terus up to date dengan segala informasi terbaru mengenai plugin wordpress yang digunakan.
