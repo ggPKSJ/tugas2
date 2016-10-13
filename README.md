@@ -222,6 +222,7 @@ https://github.com/sqlmapproject/sqlmap/wiki/Usage
 ####3. Uji Sql Injection terhadap plugin wordpress video player v.1.5.16
 
 Pada tahap ini, kami melakukan sebuah skenario uji sql injection terhadap video player plugin, yaitu :
+
 1. melakukan brute force sql injection yang terdapat dalam video player yang telah diinstall
 
 **Skenario 1** : menggunakan NTO sql invader untuk melakukan cek parameter yang mungkin terdapat vulnerable terhadap sql injection yang terdapat dalam post method.
@@ -231,6 +232,19 @@ Pada tahap ini, kami melakukan sebuah skenario uji sql injection terhadap video 
 Hasil uji coba
 
 ![Hasil Skenario 1](video_player_1.5.16/testnto.PNG)
+
+**Skenario2** : Menggunakan program dalam bentuk html dengan cara mencoba sesuatu yang bisa bernilai benar atau salah, untuk mengecek kebenaran dari apa yang telah kita inginkan.
+
+Program 
+![Uji coba] (video_player_1.5.16/40137.html)
+
+Hasil yang didapatkan apabila kita tidak login kedalam wordpress
+
+![Uji coba] (video_player_1.5.16/1b.PNG)
+
+Hasil yang didapatkan apabila kita login kedalam wordpress
+
+![Uji coba] (video_player_1.5.16/1.PNG)
 
 Sumber referensi : https://www.exploit-db.com/exploits/40137/
 
